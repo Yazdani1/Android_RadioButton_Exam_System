@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Toolbar and radio button</string>
+
+
+    <string name="title">Education Apps</string>
+
+    <string name="subtitle">Learn From Here</string>
+
+
+    <string name="item1">Facebook</string>
+
+    <string name="item2">Instagram</string>
+
+    <string name="item3">FeedBack</string>
+
+    <string name="item4">Contact Us</string>
+
+    <string name="item5">About Us</string>
+
+    <string name="item6">Rate Us</string>
+
+
+    <string name="apple">Apple</string>
+
+    <string name="banana">Banana</string>
+
+    <string name="graps">Grapsh</string>
+
+    <string name="lichi">Lichi</string>
+
+</resources>

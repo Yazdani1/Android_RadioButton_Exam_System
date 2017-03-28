@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    tools:context="androidsqlite.com.toolbarandradiobutton.MainActivity">
+
+
+    <include android:id="@+id/my_toolbar"
+        layout="@layout/toolbar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Fruit"
+        android:layout_below="@id/my_toolbar"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:gravity="center_horizontal"
+        android:paddingTop="25dp"
+        android:textColor="#fff"
+        android:id="@+id/title_text"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_text"
+        android:layout_marginTop="60dp"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fruit_apple"
+            android:text="@string/apple"
+            android:textColor="#fff"
+            android:onClick="selectitem"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:buttonTint="@color/colorAccent"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fruit_banan"
+            android:text="@string/banana"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#fff"
+            android:onClick="selectitem"
+            android:buttonTint="@color/colorAccent"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/grapsh"
+            android:text="@string/graps"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#fff"
+            android:onClick="selectitem"
+            android:buttonTint="@color/colorAccent"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lichi"
+            android:text="@string/lichi"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#fff"
+            android:onClick="selectitem"
+            android:buttonTint="@color/colorAccent"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selected fruit"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fff"
+            android:paddingBottom="30dp"
+            android:background="#000"
+            android:padding="15px"
+            android:id="@+id/text_result_xml"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="25dp"
+            />
+
+
+
+
+    </RadioGroup>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

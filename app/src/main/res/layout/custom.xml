@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/custom_dialog"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Good job You Answer is correct!!Goto next step"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:padding="25sp"
+        android:textColor="#fff"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="25dp"
+        android:text="OK"
+        android:background="@color/oki_button"
+        android:textColor="#fff"
+        android:id="@+id/oki_button_xml"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+
+
+</LinearLayout>
